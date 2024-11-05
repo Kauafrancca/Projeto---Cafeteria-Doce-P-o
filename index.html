@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Cafeteria Doce Pão</title>
+</head>
+
+<body>
+
+    <div class="caixa-video">
+        <video src="./videos/coffe.mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </div>
+
+
+    <header class="header">
+        <section>
+            <a href="#">
+                <img src="./img/logo (1).png" alt="logo-cafeteria">
+            </a>
+
+            <nav>
+                <a href="">Home</a>
+                <a href="">Sobre</a>
+                <a href="">Menu</a>
+                <a href="">Avaliações</a>
+                <a onclick="mostrarModal()">Endereço</a>
+            </nav>
+
+        </section>
+    </header>
+
+    <section class="caixa-principal">
+        <div>
+            <h3>Code com o melhor café da Região</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, iure id nam ea harum
+                laudantium. Architecto nostrum, accusantium necessitatibus, corporis quas culpa doloribus,
+                repellat ullam fuga hic consectetur quia incidunt.</p>
+            <a class="botao-link">Pegue o seu agora</a>
+        </div>
+    </section>
+
+    <section class="caixa-sobre">
+        <h2 class="titulo"><span>Sobre</span> Nós</h2>
+        <div class="sobre-container">
+            <div class="sobre-imagem">
+                <img src="./img/about-img.jpeg" alt="">
+            </div>
+
+            <div class="sobre-texto">
+                <h3>O que faz nosso café especial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque molestias reiciendis eos.
+                    Placeat consectetur voluptates deleniti vel esse soluta perferendis accusamus distinctio
+                    voluptatibus, iste corrupti rerum nemo fuga at a.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur aspernatur tempore
+                    asperiores et expedita, dignissimos consequuntur sit eum eveniet quia tenetur! Laudantium,
+                    similique? Facilis magni laboriosam omnis maxime aut officia?</p>
+                <a class="botao-link">Saiba Mais</a>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="modal">
+        <h3 class="titulo"><span>Nosso</span> Endereço</h3>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124453.32446816388!2d-38.463738756640595!3d-12.897020199999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161703addc2225%3A0x4cb0f6da9d6b5c00!2sDoce%20P%C3%A3o%20-%20Lauro%20de%20Freitas!5e0!3m2!1spt-BR!2sbr!4v1730646100092!5m2!1spt-BR!2sbr"
+            width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="mascara-modal" onclick="esconderModal()"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
